@@ -23,7 +23,7 @@ variable "container" {
 variable "password_never_expires" {
   description = "A DN of the container object that will be holding the user."
   type        = bool
-  default     = true
+  default     = false
 }
 
 variable "initial_password" {
